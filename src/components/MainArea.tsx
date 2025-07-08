@@ -1,13 +1,14 @@
 import Map from './Map'
 import Sidebar from './Sidebar'
+import bgSidebar from '../assets/img/background_sidebar_md.png'
 
 export default function MainArea() {
   return (
-    <div className="flex h-dvh pt-14">
-      <div className="bg-[#f2f2f2]">
+    <div className="flex h-dvh">
+      <div className="bg-radial from-[#ffffff] to-[#e8e8e8] pt-14">
         <Sidebar />
       </div>
-      <div className="bg-red-300">
+      <div className="">
         <Map />
       </div>
     </div>

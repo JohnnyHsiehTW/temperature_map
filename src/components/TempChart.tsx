@@ -24,7 +24,7 @@ const chartConfig = {
 export default function TempChart() {
   return (
     <>
-      <ChartContainer config={chartConfig} className="custom-chart h-[150px] w-full">
+      <ChartContainer config={chartConfig} className="custom-chart h-[120px] w-full">
         <AreaChart
           accessibilityLayer
           data={chartData}
